@@ -1,0 +1,26 @@
+
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Speaker Controller</title> 
+ </head> 
+ <body> 
+ <h1>Control Your Speakers</h1> 
+ <button onclick="scanSpeakers()">Scan Speakers</button> 
+ <button onclick="playOnAll()">Play on All</button> 
+
+ <script> 
+ function scanSpeakers() { 
+ alert('Scanning for speakers...'); 
+ // Here you'd add actual scanning logic later 
+ } 
+
+ function playOnAll() { 
+ alert('Playing on all speakers...'); 
+ // Here you'd add actual playback logic later 
+ } 
+ </script> 
+ </body> 
+ </html> 
